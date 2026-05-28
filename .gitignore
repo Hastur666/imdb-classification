@@ -1,0 +1,16 @@
+# 忽略大文件和数据集（GitHub不允许上传超过100MB的文件）
+data/
+imdb_model/
+*.pth
+*.pt
+*.pkl
+
+# 忽略Python和Jupyter缓存文件
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# 忽略系统临时文件
+.DS_Store
+Thumbs.db
